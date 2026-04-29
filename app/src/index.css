@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-body: 'IBM Plex Sans', ui-sans-serif, sans-serif;
+  --font-heading: 'Space Grotesk', ui-sans-serif, sans-serif;
+  --bg-grid: rgba(15, 23, 42, 0.045);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: #0f172a;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.bg-app-pattern {
+  background:
+    radial-gradient(circle at top right, rgba(14, 116, 144, 0.15), transparent 45%),
+    radial-gradient(circle at bottom left, rgba(16, 185, 129, 0.13), transparent 40%),
+    linear-gradient(to bottom, #f8fcff, #edf4f8 32%, #eef6f2 100%);
+}
+
+.bg-app-pattern::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(var(--bg-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--bg-grid) 1px, transparent 1px);
+  background-size: 32px 32px;
+  mask-image: radial-gradient(circle at center, black 45%, transparent 90%);
+}

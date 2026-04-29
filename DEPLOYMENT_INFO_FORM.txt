@@ -1,0 +1,54 @@
+# DEPLOYMENT INFORMATION FORM
+
+**Instructions:** Fill in the blanks below and provide this to me, and I will update all configuration files for you.
+
+---
+
+## Your Information
+
+### 1. GitHub Username
+```
+_________________________________________________
+Example: john-doe
+```
+
+### 2. GitHub Repository Name
+```
+_________________________________________________
+Example: AVD-assessment-app
+```
+
+### 3. Azure Subscription ID
+```
+_________________________________________________
+Example: 12345678-1234-1234-1234-123456789012
+```
+
+### 4. GitHub Personal Access Token (PAT)
+[Follow STEP 2 in SETUP_WIZARD.md to create this]
+```
+_________________________________________________
+Example: github_pat_11ABC...XYZ
+```
+
+### 5. Azure Region (optional - default is eastus)
+```
+_________________________________________________
+Options: eastus, westus2, westeurope
+Default: eastus
+```
+
+---
+
+## Once You've Filled This Out
+
+1. Copy the completed form
+2. Paste it in a message to me
+3. I will:
+   - Update `.azure/infrastructure/main.bicepparam`
+   - Verify everything is correct
+   - Give you the exact commands to run
+
+---
+
+**Then follow STEP 5 onwards in SETUP_WIZARD.md to complete deployment!**

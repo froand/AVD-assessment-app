@@ -1,0 +1,15 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{svg,png,jpg,gif,webp}", "/css/*", "/js/*"]
+  },
+  "mimeTypes": {
+    ".json": "application/json"
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "allowedRoles": ["anonymous"]
+    }
+  ]
+}
