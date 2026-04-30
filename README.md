@@ -172,6 +172,7 @@ The application is deployed on **Azure Static Web Apps** for:
 - Scalability and reliability
 
 **Live URL:** https://gray-glacier-0f81a5a03.7.azurestaticapps.net
+**Live URL:** https://aka.ms/AVDSecurityAssessmentApp
 
 ## 📚 References
 
