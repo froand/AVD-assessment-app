@@ -168,6 +168,10 @@ function App() {
   const [showHighRiskOnly, setShowHighRiskOnly] = useState(false)
   const [visitedStepIds, setVisitedStepIds] = useState<Set<string>>(new Set(['discovery']))
 
+  useEffect(() => {
+    document.title = 'Azure Virtual Desktop Security Assessment'
+  }, [])
+
   const visibleSteps = useMemo(
     () =>
       allSteps.filter(
