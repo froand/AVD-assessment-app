@@ -172,7 +172,6 @@ The application is deployed on **Azure Static Web Apps** for:
 - Scalability and reliability
 
 **Live URL:** https://aka.ms/AVDSecurityAssessmentApp
-**Live URL:** https://aka.ms/AVDSecurityAssessmentApp
 
 ## 📚 References
 
