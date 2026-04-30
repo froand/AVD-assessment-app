@@ -177,20 +177,17 @@ The application is deployed on **Azure Static Web Apps** for:
 
 ### Microsoft Framework Documentation
 
-- [Cloud Adoption Framework - Security](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/secure/)
-- [Azure Platform Reference Library (APRL)](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/reference/)
-- [FastTrack for Azure - Governance](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/govern/)
-- [Zero Trust Security Model](https://www.microsoft.com/en-us/security/business/zero-trust)
+- [Azure Virtual Desktop Security Assessment](https://learn.microsoft.com/en-us/assessments/1ef67c4e-b8d1-4193-b850-d192089ae33d/?source=docs)
+- [Azure Platform Reference Library (APRL) - AVD](https://azure.github.io/Azure-Proactive-Resiliency-Library-v2/azure-specialized-workloads/avd/)
+- [Zero Trust for Azure Virtual Desktop](https://learn.microsoft.com/en-us/security/zero-trust/azure-infrastructure-avd?context=%2Fazure%2Fvirtual-desktop%2Fcontext%2Fcontext)
 
-### Azure Virtual Desktop Resources
+### Azure Virtual Desktop Security Resources
 
-- [Azure Virtual Desktop Documentation](https://docs.microsoft.com/en-us/azure/virtual-desktop/)
-- [AVD Security Best Practices](https://docs.microsoft.com/en-us/azure/virtual-desktop/security-guide)
-- [Azure Well-Architected Framework - AVD](https://docs.microsoft.com/en-us/azure/well-architected/)
+- [AVD Security Recommendations](https://learn.microsoft.com/en-us/azure/virtual-desktop/security-recommendations)
+- [Azure Virtual Desktop Security Baseline](https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-virtual-desktop-security-baseline?context=%2Fazure%2Fvirtual-desktop%2Fcontext%2Fcontext)
 
 ### Additional Resources
 
-- [Microsoft Cloud Security Benchmark](https://docs.microsoft.com/en-us/security/benchmark/azure/)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework/)
 - [CIS Azure Foundations Benchmark](https://www.cisecurity.org/benchmark/azure/)
 
