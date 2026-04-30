@@ -171,7 +171,7 @@ The application is deployed on **Azure Static Web Apps** for:
 - Zero-configuration deployment from GitHub
 - Scalability and reliability
 
-**Live URL:** https://gray-glacier-0f81a5a03.7.azurestaticapps.net
+**Live URL:** https://aka.ms/AVDSecurityAssessmentApp
 **Live URL:** https://aka.ms/AVDSecurityAssessmentApp
 
 ## 📚 References
