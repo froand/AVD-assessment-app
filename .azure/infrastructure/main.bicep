@@ -23,7 +23,6 @@ resource staticWebApp 'Microsoft.Web/staticSites@2023-12-01' = {
       appLocation: 'app'
       apiLocation: ''
       outputLocation: 'dist'
-      appBuildCommand: 'npm run build'
     }
   }
 }
