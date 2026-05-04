@@ -79,7 +79,7 @@ export const getAssessmentSummary = (
           const response = responses[control.id]
           const weight = riskWeights[control.risk]
 
-          if (response.status !== 'na' && response.status !== 'unassessed') {
+          if (response.status !== 'na') {
             achieved += weight * statusMultipliers[response.status]
             possible += weight
             totalAchieved += weight * statusMultipliers[response.status]

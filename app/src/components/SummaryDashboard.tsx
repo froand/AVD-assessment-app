@@ -66,12 +66,14 @@ export function SummaryDashboard({
             <div key={domain.domainId}>
               <div className="mb-1 flex items-center justify-between text-sm">
                 <span className="font-medium text-slate-700">{domain.title}</span>
-                <span className="font-semibold text-slate-900">{domain.percentage}%</span>
+                <span className="font-semibold text-slate-900">
+                  {domain.possible === 0 ? 'Not assessed' : `${domain.percentage}%`}
+                </span>
               </div>
               <div className="h-2 overflow-hidden rounded-full bg-slate-200">
                 <div
-                  className="h-full rounded-full bg-cyan-700 transition-all"
-                  style={{ width: `${domain.percentage}%` }}
+                  className={`h-full rounded-full transition-all ${domain.possible === 0 ? 'bg-slate-400' : 'bg-cyan-700'}`}
+                  style={{ width: domain.possible === 0 ? '0%' : `${domain.percentage}%` }}
                 />
               </div>
             </div>
